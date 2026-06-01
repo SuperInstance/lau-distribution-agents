@@ -1,0 +1,10 @@
+[package]
+name = "lau-distribution-agents"
+version = "0.1.0"
+edition = "2021"
+description = "Schwartz distribution theory for agents — handling discontinuities, impulses, and singularities in agent behavior"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
